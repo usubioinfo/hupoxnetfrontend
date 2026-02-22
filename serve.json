@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/hupoxnet/static/**", "destination": "/static/$1" },
+    { "source": "/hupoxnet/asset-manifest.json", "destination": "/asset-manifest.json" },
+    { "source": "/hupoxnet/manifest.json", "destination": "/manifest.json" },
+    { "source": "/hupoxnet/favicon.ico", "destination": "/favicon.ico" },
+    { "source": "/hupoxnet/**", "destination": "/index.html" },
+    { "source": "**", "destination": "/index.html" }
+  ]
+}
